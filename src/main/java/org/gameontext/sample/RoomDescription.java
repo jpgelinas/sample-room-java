@@ -37,9 +37,9 @@ public class RoomDescription {
     private final JsonObject EMPTY_COMMANDS = Json.createObjectBuilder().build();
     private final JsonArray EMPTY_INVENTORY = Json.createArrayBuilder().build();
 
-    private String name = "defaultRoomNickName";
-    private String fullName = "A room with the default fullName still set in the source";
-    private String description = "A room that still has the default description set in the source";
+    private String name = "salleDesjardinsJava";
+    private String fullName = "Salle Desjardins Java";
+    private String description = "Une Salle Desjardins servie par un micro-service en Java";
 
     private Map<String, String> commands = new ConcurrentHashMap<>();
     private JsonObject commandObj = null;
